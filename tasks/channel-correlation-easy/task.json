@@ -1,5 +1,5 @@
 {
-  "instruction": "Analyze channel correlation patterns in time-series data. Load the provided time-series dataset and identify correlations between different data channels. Calculate correlation coefficients and visualize the correlation matrix.",
+  "instruction": "Examine correlation patterns among channels in time-series data. Load the given dataset, compute correlation coefficients between different channels, and visualize the results using a correlation matrix.",
   "author_name": "Artur Dox",
   "author_email": "artur@example.com",
   "difficulty": "easy",
