@@ -1,0 +1,24 @@
+{
+  "instruction": "Extract meaningful features from time-series data for machine learning applications. Implement various feature extraction techniques including statistical features, frequency domain features, time domain features, and advanced methods like tsfresh automated feature extraction.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "medium",
+  "category": "time-series",
+  "tags": [
+    "feature extraction",
+    "time-series",
+    "statistical features",
+    "frequency domain",
+    "tsfresh",
+    "python",
+    "pandas",
+    "numpy"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 350,
+  "max_test_timeout_sec": 700,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 250,
+  "description": "Extract comprehensive features from time-series data for machine learning. Implement statistical, frequency, and time domain feature extraction methods.",
+  "keywords": "feature extraction, time-series, statistical features, frequency domain, tsfresh, python, pandas, numpy, machine learning features"
+}

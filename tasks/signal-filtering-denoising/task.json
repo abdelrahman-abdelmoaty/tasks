@@ -1,0 +1,23 @@
+{
+  "instruction": "Apply digital signal processing techniques to filter and denoise time-series signals. Implement various filtering methods including low-pass, high-pass, band-pass filters, and advanced denoising techniques like Savitzky-Golay and Wiener filters.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "medium",
+  "category": "time-series",
+  "tags": [
+    "signal filtering",
+    "denoising",
+    "digital filters",
+    "time-series",
+    "signal processing",
+    "python",
+    "scipy"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 300,
+  "max_test_timeout_sec": 600,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 220,
+  "description": "Implement digital signal processing techniques for filtering and denoising time-series data. Apply various filter types and denoising algorithms.",
+  "keywords": "signal filtering, denoising, digital filters, time-series, signal processing, python, scipy, Savitzky-Golay, Wiener filter"
+}

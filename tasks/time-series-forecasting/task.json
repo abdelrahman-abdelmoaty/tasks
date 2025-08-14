@@ -1,0 +1,24 @@
+{
+  "instruction": "Implement time-series forecasting models to predict future values based on historical data. Use ARIMA, Prophet, or other forecasting techniques to build predictive models and evaluate their performance using appropriate metrics.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "hard",
+  "category": "time-series",
+  "tags": [
+    "forecasting",
+    "ARIMA",
+    "Prophet",
+    "time-series",
+    "prediction",
+    "python",
+    "statsmodels",
+    "fbprophet"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 400,
+  "max_test_timeout_sec": 800,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 360,
+  "description": "Build time-series forecasting models using statistical and machine learning approaches. Implement ARIMA, Prophet, and other forecasting techniques with performance evaluation.",
+  "keywords": "forecasting, ARIMA, Prophet, time-series, prediction, python, statsmodels, fbprophet, model evaluation"
+}

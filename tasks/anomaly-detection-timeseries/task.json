@@ -1,0 +1,23 @@
+{
+  "instruction": "Detect anomalies and outliers in time-series data using statistical and machine learning approaches. Implement algorithms like Isolation Forest, Local Outlier Factor, and statistical threshold methods to identify unusual patterns or data points.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "medium",
+  "category": "time-series",
+  "tags": [
+    "anomaly detection",
+    "outliers",
+    "time-series",
+    "isolation forest",
+    "statistical methods",
+    "python",
+    "scikit-learn"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 350,
+  "max_test_timeout_sec": 700,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 270,
+  "description": "Implement anomaly detection algorithms for time-series data. Identify outliers and unusual patterns using statistical and machine learning methods.",
+  "keywords": "anomaly detection, outliers, time-series, isolation forest, statistical methods, python, scikit-learn, pattern recognition"
+}

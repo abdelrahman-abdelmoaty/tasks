@@ -1,0 +1,24 @@
+{
+  "instruction": "Perform clustering analysis on time-series data to identify similar patterns and group related signals. Implement time-series specific clustering algorithms like Dynamic Time Warping (DTW) k-means, hierarchical clustering, and shape-based clustering methods.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "hard",
+  "category": "time-series",
+  "tags": [
+    "clustering",
+    "DTW",
+    "time-series",
+    "pattern recognition",
+    "similarity",
+    "python",
+    "scikit-learn",
+    "tslearn"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 400,
+  "max_test_timeout_sec": 800,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 320,
+  "description": "Implement clustering algorithms specifically designed for time-series data. Group similar time-series patterns using DTW and other specialized distance metrics.",
+  "keywords": "clustering, DTW, time-series, pattern recognition, similarity, python, scikit-learn, tslearn, hierarchical clustering"
+}

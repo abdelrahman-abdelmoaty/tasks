@@ -1,0 +1,24 @@
+{
+  "instruction": "Perform wavelet analysis on time-series signals to analyze time-frequency characteristics. Implement continuous and discrete wavelet transforms, scalogram visualization, and multi-resolution analysis for signal decomposition and feature extraction.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "hard",
+  "category": "time-series",
+  "tags": [
+    "wavelet analysis",
+    "time-frequency",
+    "scalogram",
+    "signal decomposition",
+    "multi-resolution",
+    "python",
+    "pywt",
+    "scipy"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 400,
+  "max_test_timeout_sec": 800,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 380,
+  "description": "Implement wavelet analysis techniques for time-frequency analysis of signals. Perform continuous and discrete wavelet transforms with scalogram visualization.",
+  "keywords": "wavelet analysis, time-frequency, scalogram, signal decomposition, multi-resolution, python, pywt, scipy, CWT, DWT"
+}

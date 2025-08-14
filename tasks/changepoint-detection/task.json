@@ -1,0 +1,24 @@
+{
+  "instruction": "Detect change points in time-series data where statistical properties of the signal change significantly. Implement algorithms like CUSUM, Bayesian change point detection, and PELT (Pruned Exact Linear Time) to identify structural breaks and regime changes.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "hard",
+  "category": "time-series",
+  "tags": [
+    "change point detection",
+    "CUSUM",
+    "PELT",
+    "time-series",
+    "structural breaks",
+    "python",
+    "ruptures",
+    "bayesian"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 400,
+  "max_test_timeout_sec": 800,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 340,
+  "description": "Implement change point detection algorithms to identify structural breaks and regime changes in time-series data. Use statistical and machine learning approaches.",
+  "keywords": "change point detection, CUSUM, PELT, time-series, structural breaks, python, ruptures, bayesian, regime change"
+}

@@ -1,0 +1,24 @@
+{
+  "instruction": "Decompose time-series data into trend, seasonal, and residual components using various decomposition methods. Implement classical decomposition, STL (Seasonal and Trend decomposition using Loess), X-11, and other advanced decomposition techniques for time-series analysis.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "medium",
+  "category": "time-series",
+  "tags": [
+    "decomposition",
+    "STL",
+    "seasonal",
+    "trend",
+    "time-series",
+    "python",
+    "statsmodels",
+    "pandas"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 300,
+  "max_test_timeout_sec": 600,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 260,
+  "description": "Implement time-series decomposition methods to separate trend, seasonal, and residual components. Use classical and modern decomposition techniques.",
+  "keywords": "decomposition, STL, seasonal, trend, time-series, python, statsmodels, pandas, classical decomposition, X-11"
+}
