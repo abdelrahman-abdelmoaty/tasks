@@ -1,0 +1,22 @@
+{
+  "instruction": "Analyze time-series data to determine stationarity and apply appropriate statistical tests. Implement Augmented Dickey-Fuller test and other stationarity tests, then apply transformations if needed to achieve stationarity.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "hard",
+  "category": "time-series",
+  "tags": [
+    "stationarity",
+    "statistical tests",
+    "time-series",
+    "transformations",
+    "python",
+    "statsmodels"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 300,
+  "max_test_timeout_sec": 600,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 300,
+  "description": "Analyze time-series data to determine stationarity and apply appropriate statistical tests and transformations. Implement stationarity tests and data transformations.",
+  "keywords": "stationarity, statistical tests, time-series, transformations, python, statsmodels, ADF test"
+}

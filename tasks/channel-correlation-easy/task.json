@@ -1,0 +1,22 @@
+{
+  "instruction": "Analyze channel correlation patterns in time-series data. Load the provided time-series dataset and identify correlations between different data channels. Calculate correlation coefficients and visualize the correlation matrix.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "easy",
+  "category": "time-series",
+  "tags": [
+    "time-series",
+    "correlation",
+    "signal processing",
+    "python",
+    "pandas",
+    "numpy"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 300,
+  "max_test_timeout_sec": 600,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 180,
+  "description": "Analyze channel correlation patterns in time-series data. Identify and quantify correlations between different data channels using statistical methods.",
+  "keywords": "time-series, correlation, signal processing, python, pandas, numpy, statistical analysis"
+}

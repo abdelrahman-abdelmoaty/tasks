@@ -1,0 +1,22 @@
+{
+  "instruction": "Detect and analyze spike synchronization patterns in neural or signal time-series data. Implement algorithms to identify spike events and analyze their temporal relationships and synchronization patterns.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "medium",
+  "category": "time-series",
+  "tags": [
+    "spike detection",
+    "synchronization",
+    "neural signals",
+    "time-series",
+    "python",
+    "scipy"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 300,
+  "max_test_timeout_sec": 600,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 200,
+  "description": "Detect and analyze spike synchronization patterns in neural or signal time-series data. Implement spike detection algorithms and analyze temporal relationships.",
+  "keywords": "spike detection, synchronization, neural signals, time-series, python, scipy, signal processing"
+}

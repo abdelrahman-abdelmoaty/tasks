@@ -1,0 +1,22 @@
+{
+  "instruction": "Perform frequency analysis on time-series signals. Use Fast Fourier Transform (FFT) to identify dominant frequency components and analyze the power spectral density of the provided time-series data.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "medium",
+  "category": "time-series",
+  "tags": [
+    "frequency analysis",
+    "spectral analysis",
+    "FFT",
+    "time-series",
+    "python",
+    "scipy"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 300,
+  "max_test_timeout_sec": 600,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 240,
+  "description": "Perform frequency analysis on time-series signals using spectral analysis techniques. Identify dominant frequency components and analyze power spectral density.",
+  "keywords": "frequency analysis, spectral analysis, FFT, time-series, python, scipy, signal processing"
+}
