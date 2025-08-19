@@ -4,14 +4,12 @@
   "author_email": "artur@example.com",
   "difficulty": "hard",
   "category": "performance",
-  "tags": [
-    "test"
-  ],
+  "tags": ["test"],
   "parser_name": "time_series_parser",
   "max_agent_timeout_sec": 400,
   "max_test_timeout_sec": 800,
   "run_tests_in_same_shell": false,
   "estimated_duration_sec": 380,
-  "description": "Test"
+  "description": "Test",
   "keywords": "Test"
 }
