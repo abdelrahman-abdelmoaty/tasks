@@ -19,6 +19,6 @@
   "max_test_timeout_sec": 800,
   "run_tests_in_same_shell": false,
   "estimated_duration_sec": 340,
-  "description": "Make change point detection algorithms to identify structural breaks and regime changes in time-series data. Use statistical and machine learning approaches.",
+  "description": "Apply change point detection algorithms to identify structural breaks and regime changes in time-series data. Use statistical and machine learning approaches.",
   "keywords": "change point detection, CUSUM, PELT, time-series, structural breaks, python, ruptures, bayesian, regime change"
 }
