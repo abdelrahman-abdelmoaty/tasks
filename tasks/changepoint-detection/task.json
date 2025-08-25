@@ -1,5 +1,5 @@
 {
-  "instruction": "Detect change points in time-series data where statistical properties of the signal change significantly. Implement algorithms like CUSUM, Bayesian change point detection, and PELT (Pruned Exact Linear Time) to identify structural breaks and regime changes.",
+  "instruction": "Analyze change points in time-series data where statistical properties of the signal change significantly. Implement algorithms like CUSUM, Bayesian change point detection, and PELT (Pruned Exact Linear Time) to identify structural breaks and regime changes.",
   "author_name": "Artur Dox",
   "author_email": "artur@example.com",
   "difficulty": "hard",
