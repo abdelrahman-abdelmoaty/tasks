@@ -1,0 +1,24 @@
+{
+  "instruction": "Detect the amplitude envelope of time-series signals using the Hilbert transform and peak-based methods. Compute the analytic signal via scipy's hilbert function and extract the instantaneous amplitude as the upper envelope. Complement this with a peak-picking approach that connects local maxima (and minima for the lower envelope) using spline or linear interpolation. Apply both methods to oscillatory signals and compare their smoothness and accuracy. Use the envelope for downstream tasks such as amplitude modulation analysis or signal energy estimation. Visualize the raw signal overlaid with upper and lower envelopes, and report the root mean square (RMS) envelope level.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "medium",
+  "category": "data-processing",
+  "tags": [
+    "envelope detection",
+    "Hilbert transform",
+    "analytic signal",
+    "peak detection",
+    "amplitude modulation",
+    "time-series",
+    "python",
+    "scipy"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 350,
+  "max_test_timeout_sec": 700,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 240,
+  "description": "Detect signal envelopes using the Hilbert transform and peak interpolation. Extract upper and lower envelopes for amplitude modulation and energy analysis.",
+  "keywords": "envelope detection, Hilbert transform, analytic signal, instantaneous amplitude, peak picking, amplitude modulation, RMS, time-series, scipy, python, spline interpolation"
+}

@@ -1,0 +1,26 @@
+{
+  "instruction": "Analyze non-stationary time-series signals in the joint time-frequency domain using the Short-Time Fourier Transform (STFT). Compute the STFT with configurable window function (Hann, Hamming, Blackman), window length, and overlap to control the time-frequency resolution trade-off. Generate and visualize spectrograms in decibels with proper axis labeling (time in seconds, frequency in Hz). Identify time-varying frequency components, harmonic structures, and transient events from the spectrogram. Compare spectrograms at different resolutions to illustrate the Heisenberg uncertainty principle. Optionally compute the inverse STFT to reconstruct the signal and measure reconstruction error.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "medium",
+  "category": "data-processing",
+  "tags": [
+    "STFT",
+    "spectrogram",
+    "time-frequency",
+    "signal processing",
+    "FFT",
+    "windowing",
+    "time-series",
+    "python",
+    "scipy",
+    "matplotlib"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 350,
+  "max_test_timeout_sec": 700,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 260,
+  "description": "Compute STFT spectrograms to analyze time-varying frequency content of non-stationary signals. Explore resolution trade-offs and identify transient and harmonic structures.",
+  "keywords": "STFT, Short-Time Fourier Transform, spectrogram, time-frequency analysis, windowing, Hann window, FFT, signal processing, non-stationary, time-series, scipy, python, harmonic analysis"
+}

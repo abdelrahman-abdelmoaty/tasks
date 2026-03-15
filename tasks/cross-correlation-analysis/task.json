@@ -1,0 +1,25 @@
+{
+  "instruction": "Analyze cross-correlation and lag relationships between multiple time-series channels to discover lead-lag dependencies and synchronization patterns. Compute the normalized cross-correlation function (CCF) between pairs of channels across a range of positive and negative lags. Identify the lag of maximum correlation and test its statistical significance using confidence bounds derived from the standard error (1.96/sqrt(N)). Apply pre-whitening (fit an AR model to each channel and cross-correlate the residuals) to remove autocorrelation bias. Visualize cross-correlograms for all channel pairs and summarize the dominant lag structure in a lag matrix.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "medium",
+  "category": "data-science",
+  "tags": [
+    "cross-correlation",
+    "lag analysis",
+    "CCF",
+    "pre-whitening",
+    "multi-channel",
+    "time-series",
+    "python",
+    "statsmodels",
+    "numpy"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 350,
+  "max_test_timeout_sec": 700,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 250,
+  "description": "Compute cross-correlation functions between multiple time-series channels to identify lead-lag dependencies. Apply pre-whitening and significance testing for robust lag estimation.",
+  "keywords": "cross-correlation, lag analysis, CCF, cross-correlogram, pre-whitening, lead-lag, multi-channel, time-series, python, statsmodels, numpy, synchronization"
+}

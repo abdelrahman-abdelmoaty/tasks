@@ -1,0 +1,25 @@
+{
+  "instruction": "Detect and analyze trends in time-series data using statistical and mathematical approaches. Implement linear and polynomial regression to fit trend lines, apply the Mann-Kendall test to assess monotonic trend significance, and compute Sen's slope estimator for robust trend magnitude estimation. Handle non-stationary data by differencing or detrending before further analysis. Visualize the original signal alongside the fitted trend and report trend direction, slope, and statistical significance (p-value).",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "medium",
+  "category": "data-science",
+  "tags": [
+    "trend detection",
+    "Mann-Kendall",
+    "linear regression",
+    "polynomial regression",
+    "Sen's slope",
+    "time-series",
+    "python",
+    "scipy",
+    "statsmodels"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 350,
+  "max_test_timeout_sec": 700,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 270,
+  "description": "Analyze and detect trends in time-series data using linear regression, polynomial fitting, and the Mann-Kendall statistical test with Sen's slope estimation.",
+  "keywords": "trend analysis, Mann-Kendall test, linear trend, polynomial trend, Sen's slope, detrending, time-series, python, scipy, statsmodels, monotonic trend"
+}

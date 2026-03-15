@@ -1,0 +1,24 @@
+{
+  "instruction": "Detect and characterize peaks and valleys in time-series signals using scipy's find_peaks and related utilities. Configure detection parameters including minimum prominence, minimum width, minimum height threshold, and minimum distance between peaks to filter out noise-induced spurious detections. For each detected peak and valley, compute attributes such as prominence, width at half-prominence, exact position, and amplitude. Apply smoothing (Savitzky-Golay or Gaussian) before detection when the signal is noisy. Aggregate statistics across all detected peaks (mean period, amplitude distribution, prominence histogram) and visualize the signal with annotated peaks and valleys including their widths.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "easy",
+  "category": "data-processing",
+  "tags": [
+    "peak detection",
+    "valley detection",
+    "prominence",
+    "find_peaks",
+    "signal processing",
+    "time-series",
+    "python",
+    "scipy"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 350,
+  "max_test_timeout_sec": 700,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 200,
+  "description": "Detect and characterize peaks and valleys in time-series signals using prominence, width, and height criteria. Aggregate peak statistics and visualize annotated results.",
+  "keywords": "peak detection, valley detection, find_peaks, prominence, peak width, peak height, Savitzky-Golay smoothing, signal processing, time-series, scipy, python, amplitude distribution"
+}

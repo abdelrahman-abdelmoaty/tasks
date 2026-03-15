@@ -1,0 +1,25 @@
+{
+  "instruction": "Classify multi-class time-series data into distinct categories using shape-based and machine learning approaches. Implement Dynamic Time Warping (DTW) distance with a nearest-neighbor classifier to handle temporal misalignments, apply the ROCKET (RandOm Convolutional KErnel Transform) algorithm for fast and accurate feature extraction followed by a linear classifier, and optionally implement a 1D Convolutional Neural Network (CNN) for end-to-end deep learning classification. Preprocess signals with z-score normalization before classification. Evaluate models using accuracy, F1-score, and confusion matrix, and compare the trade-offs in speed and accuracy across methods.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "hard",
+  "category": "data-science",
+  "tags": [
+    "classification",
+    "DTW",
+    "ROCKET",
+    "CNN",
+    "time-series",
+    "machine learning",
+    "python",
+    "tslearn",
+    "sktime"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 350,
+  "max_test_timeout_sec": 700,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 340,
+  "description": "Classify time-series data into categories using DTW-based nearest neighbor, ROCKET, and CNN approaches. Compare classifier performance using accuracy and F1-score.",
+  "keywords": "time-series classification, DTW, Dynamic Time Warping, ROCKET, CNN, 1D convolution, sktime, tslearn, python, F1-score, confusion matrix, nearest neighbor"
+}

@@ -1,0 +1,25 @@
+{
+  "instruction": "Impute missing values in time-series data using multiple strategies and evaluate their accuracy. Implement linear and spline interpolation for gap-filling, apply forward-fill and backward-fill as baseline methods, and use KNN imputation to leverage relationships between neighboring time steps or correlated channels. Handle gaps of varying lengths differently — short gaps may use interpolation while long gaps may require model-based approaches. Quantify imputation quality using RMSE and MAE against held-out ground truth values, and visualize original, masked, and imputed signals for comparison.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "easy",
+  "category": "data-processing",
+  "tags": [
+    "missing data",
+    "imputation",
+    "interpolation",
+    "KNN",
+    "forward-fill",
+    "time-series",
+    "python",
+    "pandas",
+    "scikit-learn"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 350,
+  "max_test_timeout_sec": 700,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 210,
+  "description": "Impute missing values in time-series data using interpolation, KNN, and fill-based strategies. Evaluate imputation quality against ground truth using RMSE and MAE.",
+  "keywords": "missing data, imputation, interpolation, KNN imputation, forward-fill, backward-fill, time-series, python, pandas, scikit-learn, gap filling, RMSE"
+}

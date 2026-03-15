@@ -1,0 +1,25 @@
+{
+  "instruction": "Perform autocorrelation and partial autocorrelation analysis on time-series data to identify periodicity, memory structure, and appropriate ARIMA model orders. Compute the AutoCorrelation Function (ACF) and Partial AutoCorrelation Function (PACF) up to a specified number of lags, and overlay Bartlett's confidence bands to distinguish significant from noise lags. Use ACF decay patterns and PACF cutoffs to suggest AR(p) and MA(q) orders following Box-Jenkins methodology. Additionally, detect dominant periodicities in the ACF and validate them against power spectral density. Ensure the series is stationary before analysis, applying ADF or KPSS tests and differencing if necessary.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "easy",
+  "category": "data-science",
+  "tags": [
+    "autocorrelation",
+    "ACF",
+    "PACF",
+    "ARIMA",
+    "Box-Jenkins",
+    "stationarity",
+    "time-series",
+    "python",
+    "statsmodels"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 350,
+  "max_test_timeout_sec": 700,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 210,
+  "description": "Compute ACF and PACF plots to identify AR/MA model orders and periodicity in time-series. Apply Box-Jenkins methodology with stationarity checks before analysis.",
+  "keywords": "autocorrelation, ACF, PACF, partial autocorrelation, ARIMA, Box-Jenkins, AR order, MA order, periodicity, stationarity, ADF test, KPSS, statsmodels, python"
+}

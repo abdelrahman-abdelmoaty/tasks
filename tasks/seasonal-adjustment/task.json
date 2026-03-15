@@ -1,0 +1,24 @@
+{
+  "instruction": "Remove seasonality from time-series data to isolate the underlying trend and irregular components. Apply STL (Seasonal and Trend decomposition using Loess) decomposition to extract and subtract seasonal patterns with configurable period and robustness parameters. Where applicable, demonstrate X-13ARIMA-SEATS-style adjustment concepts by modeling and removing calendar effects. Assess the quality of seasonal adjustment by verifying that the residual component is free of periodic structure using spectral analysis. Visualize the original series alongside the seasonally adjusted series and individual decomposed components.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "medium",
+  "category": "data-science",
+  "tags": [
+    "seasonal adjustment",
+    "STL decomposition",
+    "X-13ARIMA-SEATS",
+    "seasonality",
+    "time-series",
+    "python",
+    "statsmodels",
+    "loess"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 350,
+  "max_test_timeout_sec": 700,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 260,
+  "description": "Remove seasonal patterns from time-series using STL decomposition and X-13ARIMA-SEATS concepts. Validate adjustment quality through spectral analysis of residuals.",
+  "keywords": "seasonal adjustment, STL decomposition, X-13ARIMA-SEATS, seasonality removal, loess, time-series, statsmodels, python, trend isolation, spectral analysis, calendar effects"
+}

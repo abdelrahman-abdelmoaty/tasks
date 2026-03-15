@@ -1,0 +1,27 @@
+{
+  "instruction": "Resample, interpolate, and align multiple time-series streams recorded at different sampling rates onto a common time grid. Implement upsampling using linear, cubic spline, and PCHIP interpolation, and downsampling using decimation with anti-aliasing (low-pass filtering before subsampling) to prevent aliasing artifacts. Given a set of channels with heterogeneous sampling frequencies and potentially misaligned start times, produce a synchronized DataFrame on a user-specified target frequency. Validate alignment accuracy by measuring the maximum time offset between resampled channels. Discuss the trade-offs in choosing interpolation method, target frequency, and anti-aliasing filter cutoff for different signal types.",
+  "author_name": "Artur Dox",
+  "author_email": "artur@example.com",
+  "difficulty": "hard",
+  "category": "data-processing",
+  "tags": [
+    "resampling",
+    "interpolation",
+    "alignment",
+    "upsampling",
+    "downsampling",
+    "anti-aliasing",
+    "multi-rate",
+    "time-series",
+    "python",
+    "scipy",
+    "pandas"
+  ],
+  "parser_name": "time_series_parser",
+  "max_agent_timeout_sec": 350,
+  "max_test_timeout_sec": 700,
+  "run_tests_in_same_shell": false,
+  "estimated_duration_sec": 300,
+  "description": "Resample and align multi-rate time-series data onto a common time grid using interpolation and anti-aliased decimation. Validate temporal alignment accuracy across channels.",
+  "keywords": "resampling, interpolation, time alignment, upsampling, downsampling, anti-aliasing, decimation, PCHIP, cubic spline, multi-rate, time-series, pandas, scipy, python, synchronization"
+}
